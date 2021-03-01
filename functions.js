@@ -2,15 +2,17 @@
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1: Multiply 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 /*
 
+
 Do the following:   
    1. Invoke the multiply function below and pass it two numbers
    2. Receive the parameters: a and b
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
-  }
+function multiply(num1, num2){
+  return num1 * num2
+}
+console.log(multiply(5, 5))
 
 
 /*
@@ -25,9 +27,10 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function catYears(/*add your code here*/){
-    /*add your code here*/
+function catYears(){
+console.log("3 Years")
 }
+console.log(catYears())
 
 
 
@@ -37,31 +40,32 @@ function catYears(/*add your code here*/){
 // Take the commented ES5 syntax and convert it to ES6 arrow Syntax
 
 
-/*
 
-------------
+
+// ------------
+
 function myFunction() {
 console.log("Function was invoked!");
 };
-
+console.log(myFunction())
 myFunction();
-----------------
+// ----------------
 
-let anotherFunction = function (param) {
-  return param;
-};
 
-anotherFunction("Example");
+// let anotherFunction = (param) {
+//   return param;
+// };
 
----------------
+// anotherFunction("Example");
 
-let add = function (param1, param2) {
-  return param1 + param2;
-};
+// // ---------------
 
-add(1,2);
+let add = (param1, param2) => {
+  return param1 + param2
+}
+console.log(add(2, 2));
 
-*/
+
 
 
 
